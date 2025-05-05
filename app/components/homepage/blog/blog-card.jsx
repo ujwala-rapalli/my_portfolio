@@ -11,7 +11,7 @@ function BlogCard({ blog }) {
   return (
     <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group">
       <div className="h-44 lg:h-52 w-auto cursor-pointer overflow-hidden rounded-t-lg">
-        <Image
+        <img
           src={blog.cover_image}
           height={1080}
           width={1920}
@@ -22,7 +22,7 @@ function BlogCard({ blog }) {
       <div className="p-2 sm:p-3 flex flex-col">
   <p className="text-[#16f2b3] text-sm">{blog.date}</p>
   {blog.url ? (
-    <Link href={blog.url} target='_blank'>
+    <Link href={blog.url}>
       <p className='my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500'>
         {blog.title}
       </p>
