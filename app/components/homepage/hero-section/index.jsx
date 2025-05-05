@@ -11,6 +11,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
+    
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
         src="/hero.svg"
@@ -46,27 +47,7 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaFacebook size={30} />
-            </Link>
-            <Link
-              href={personalData.leetcode}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={30} />
-            </Link>
+           
           </div>
 
           <div className="flex items-center gap-3">
@@ -108,10 +89,10 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Rapalli Ujwala</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
-              <div className="ml-4 lg:ml-8 mr-2">
+              {/* <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">React</span>
@@ -132,7 +113,40 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
-              </div>
+              </div> */}
+              <div className="ml-4 lg:ml-8 mr-2">
+  <span className="text-white">skills:</span>
+  <span className="text-gray-400">{`['`}</span>
+  <span className="text-amber-300">Java</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Python</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">JavaScript</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">HTML</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">CSS</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Bootstrap</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">React</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Node Js</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Figma</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Canva</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">MySQL</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">Machine Learning</span>
+  <span className="text-gray-400">{"', '"}</span>
+  <span className="text-amber-300">NLP</span>
+  <span className="text-gray-400">{"', '"}</span>
+
+  <span className="text-gray-400">{"'],"}</span>
+</div>
+
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
                 <span className="text-orange-400">true</span>

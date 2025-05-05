@@ -1,17 +1,31 @@
 export const personalData = {
-  name: "ABU SAID",
-  profile: '/profile.png',
+  name: "Rapalli Ujwala",
+  profile: '/image/profile.jpg',
   designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  description: "I am a passionate Software Developer and Machine Learning enthusiast with expertise in web development, AI, and data-driven applications. I have experience in building scalable web applications, integrating APIs, and implementing machine learning models for predictive analytics. My core skills include JavaScript, Python, and SQL, and I enjoy working on innovative projects that merge AI and software development.",
+  email: 'rapalliujwla2@gmail.com',
+  phone: '+91 8919713182',
+  address: 'Ramnagar, Hyderabad, Telangana, India -500044 ',
+  github: 'https://github.com/ujwala-rapalli',
+  
+  linkedIn: 'https://www.linkedin.com/in/rapalli-ujwala/',
+  
   leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  // devUsername: "said7388",
+  resume: "https://drive.google.com/file/d/1WWe5lhiujJ8gcTvlc72KfqTKEKHujfy4/view?usp=sharing"
 }
+// export const personalData = {
+//   name: "Rapalli Ujwala",
+//   profile: '/profile.png',
+//   designation: "Software Developer",
+//   description: "I am a passionate Software Developer and Machine Learning enthusiast with expertise in web development, AI, and data-driven applications. I have experience in building scalable web applications, integrating APIs, and implementing machine learning models for predictive analytics. My core skills include JavaScript, Python, and SQL, and I enjoy working on innovative projects that merge AI and software development.",
+//   email: 'rapalliujwla2@gmail.com',
+//   phone: '+91 8919713182',
+//   address: 'India',
+//   github: 'https://github.com/ujwala-rapalli',
+//   linkedIn: 'https://linkedin.com/in/rapalli-ujwala',
+//   stackOverflow: '',
+//   leetcode: '',
+//   devUsername: '',
+//   resume: "" // Add the Google Drive link if you have one
+// };

@@ -1,20 +1,9 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
-  },
-  {
-    id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
-  },
-  {
-    id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    title: 'Full Stack Developer Intern',
+    company: "Sassymonks Private Limited",
+    duration: "(Dec 2024 - Present)",
+    description: "Developed and maintained web applications using HTML, CSS, JavaScript, React, and PHP. Worked on API integration, database management with MySQL, and backend development using NodeJS. Implemented UI/UX improvements and enhanced website responsiveness. Collaborated with a team to deploy scalable and efficient web solutions."
   }
-]
+];
